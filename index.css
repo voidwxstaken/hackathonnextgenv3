@@ -1,0 +1,8 @@
+/* Tailwind CSS base styles - includes normalize and base element styles */
+@tailwind base;
+
+/* Tailwind CSS component classes - reusable component styles */
+@tailwind components;
+
+/* Tailwind CSS utility classes - single-purpose utility classes */
+@tailwind utilities;
