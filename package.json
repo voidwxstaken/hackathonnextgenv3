@@ -1,0 +1,60 @@
+{
+  "_comment": "AI-Powered Children's Screen Time Tracker - A gamified app for managing family screen time",
+  "name": "vite-react-typescript-starter",
+  
+  "_private": "true - This package is not intended for publication to npm",
+  "private": true,
+  "version": "0.0.0",
+  
+  "_type": "module - Use ES modules instead of CommonJS",
+  "type": "module",
+  
+  "_scripts": "Available npm commands for development and build",
+  "scripts": {
+    "_dev": "Start development server with hot reload",
+    "dev": "vite",
+    "_build": "Type check and build for production",
+    "build": "vite build",
+    "_lint": "Run ESLint for code quality checks",
+    "lint": "eslint .",
+    "_preview": "Preview production build locally",
+    "preview": "vite preview"
+  },
+  
+  "_dependencies": "Runtime dependencies required for the application",
+  "dependencies": {
+    "_lucide-react": "Icon library for React components",
+    "lucide-react": "^0.344.0",
+    "_react": "Core React library for UI components",
+    "react": "^18.3.1",
+    "_react-dom": "React DOM rendering library",
+    "react-dom": "^18.3.1"
+  },
+  
+  "_devDependencies": "Development-only dependencies for building and tooling",
+  "devDependencies": {
+    "_eslint": "JavaScript/TypeScript linting tools",
+    "@eslint/js": "^9.9.1",
+    "_types": "TypeScript type definitions",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "_vite": "Build tool and React plugin",
+    "@vitejs/plugin-react": "^4.3.1",
+    "_css": "CSS processing tools (Tailwind and PostCSS)",
+    "autoprefixer": "^10.4.18",
+    "_linting": "ESLint and related plugins",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.9.0",
+    "_postcss": "CSS post-processor",
+    "postcss": "^8.4.35",
+    "_tailwindcss": "Utility-first CSS framework",
+    "tailwindcss": "^3.4.1",
+    "_typescript": "TypeScript compiler and ESLint integration",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "_vite": "Fast build tool for modern web development",
+    "vite": "^5.4.2"
+  }
+}

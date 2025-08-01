@@ -1,0 +1,14 @@
+// TypeScript configuration root file
+// Uses project references for better organization
+{
+  // No files in root config - uses references instead
+  "files": [],
+  
+  // Project references for modular TypeScript setup
+  "references": [
+    // Main application TypeScript config
+    { "path": "./tsconfig.app.json" },
+    // Node.js/build tools TypeScript config
+    { "path": "./tsconfig.node.json" }
+  ]
+}

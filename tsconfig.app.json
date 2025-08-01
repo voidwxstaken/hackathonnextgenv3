@@ -1,0 +1,41 @@
+// TypeScript configuration for the main application
+{
+  "compilerOptions": {
+    // Target ES2020 for modern JavaScript features
+    "target": "ES2020",
+    // Use class fields as defined in the spec
+    "useDefineForClassFields": true,
+    // Include DOM types for browser APIs
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    // Use ESNext modules for latest module features
+    "module": "ESNext",
+    // Skip type checking of declaration files for faster builds
+    "skipLibCheck": true,
+
+    /* Bundler mode - optimized for Vite */
+    // Use bundler resolution for modern build tools
+    "moduleResolution": "bundler",
+    // Allow importing TypeScript files with extensions
+    "allowImportingTsExtensions": true,
+    // Each file is treated as a separate module
+    "isolatedModules": true,
+    // Force detection of module type
+    "moduleDetection": "force",
+    // Don't emit JavaScript files (Vite handles this)
+    "noEmit": true,
+    // Use React JSX transform
+    "jsx": "react-jsx",
+
+    /* Strict type checking and linting rules */
+    // Enable all strict type checking options
+    "strict": true,
+    // Error on unused local variables
+    "noUnusedLocals": true,
+    // Error on unused function parameters
+    "noUnusedParameters": true,
+    // Error on switch statements without default cases
+    "noFallthroughCasesInSwitch": true
+  },
+  // Include all source files in the src directory
+  "include": ["src"]
+}
